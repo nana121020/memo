@@ -1,0 +1,2 @@
+class MemoNote < ApplicationRecord
+end

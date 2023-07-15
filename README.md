@@ -19,6 +19,7 @@
 | -------             | ---------- | ------------------------------ |
 | id                  | integer    | null: false                    |
 | title               | string     | null: false                    |
+| content             | text       | null: false                    |
 | user                | references | null: false, foreign_key: true |
 | folder              | references | null: false, foreign_key: true |
 
