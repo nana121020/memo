@@ -1,2 +1,0 @@
-class MemoNotesController < ApplicationController
-end

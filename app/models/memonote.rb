@@ -1,0 +1,2 @@
+class Memonote < ApplicationRecord
+end
