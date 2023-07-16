@@ -1,0 +1,10 @@
+<div class="contents row">
+  <div class="content">
+    <h3>投稿する</h3>
+    <%= form_with(model: @memonote, local: true) do |form| %>
+      <%= form.text_field :title, placeholder: "タイトル" %>
+      <%= form.text_area :content, placeholder: "メモ", rows: "10" %>
+      <%= form.submit "保存" %>
+    <% end %>
+  </div>
+</div>
