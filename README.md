@@ -13,7 +13,7 @@
 
 - has_many :memos
 
-## memos テーブル
+## memonotes テーブル
 
 | Column              | Type       | Options                        |
 | -------             | ---------- | ------------------------------ |
