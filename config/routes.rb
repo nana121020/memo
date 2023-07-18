@@ -6,4 +6,5 @@ Rails.application.routes.draw do
       #get 'search'
     #end
     resources :users, only: [:edit, :update]
+    resources :folders, only: [:new, :create]
 end
